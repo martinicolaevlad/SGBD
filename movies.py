@@ -106,6 +106,7 @@ def display_ui(df):
     st.dataframe(df)
 
 def main():
+    print("In branch.")
     try:
         print("Loading data from the local database...")
         movie_df = load_from_database()
